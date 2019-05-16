@@ -1,0 +1,52 @@
+﻿@charset: "UTF-8";
+
+
+/*formatação do texto*/
+
+	p {
+	font-family: Comic Sans MS,Arial,sans-serif;
+	text-align: justify;
+	}
+	h1 {
+	text-align: justify;
+	font-family: Comic Sans MS,Arial,sans-serif;
+	}
+	body {
+	color: white;
+	background-image: url("https://i.imgur.com/gPz5lpi.jpg");
+	}
+	hgroup {
+	
+	
+	
+	}
+/*formatação da tabela*/
+
+	table {
+	position: center;
+	background-color: rgba(10,10,10);
+	}
+	th, td {
+	border: 3px solid black;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+	vertical-align: center;
+	padding: 5px;
+	}
+	td:hover {
+	background-color: rgba(255,0,0,0.5);
+	}
+	th:hover {
+	background-color: rgba(0,255,0,0.5);
+	}
+	table caption {
+	color: red;
+	background-color: rgba(10,10,10,0.5);
+	font-family: Arial;
+	text-align: center;
+	vertical-align: center;
+	padding: 5px;
+	
+	
+/*formatação de imagem com legenda*/
